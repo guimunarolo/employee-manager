@@ -125,6 +125,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+# https://docs.djangoproject.com/pt-br/2.0/ref/settings/#std:setting-FIXTURE_DIRS
+FIXTURE_DIRS = ['app/fixtures/']
+
+
 # Django Rest Framework
 
 # http://www.django-rest-framework.org/api-guide/renderers/
